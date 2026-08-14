@@ -8,6 +8,7 @@ common network protocols and TCP behavior.
 - Analyze network traffic at the packet level
 - Understand DNS queries and responses
 - Analyze IPv4 and IPv6 traffic
+- Understand ARP address resolution
 - Understand TCP connection establishment
 - Analyze TCP connection termination
 - Compare graceful TCP termination with TCP resets
@@ -18,6 +19,7 @@ common network protocols and TCP behavior.
 | Investigation | Topics |
 |---|---|
 | DNS Analysis | DNS queries, A/AAAA records, DNS responses |
+| ARP Analysis | ARP requests and replies, IPv4-to-MAC address resolution |
 | TCP Three-Way Handshake | SYN, SYN/ACK, ACK, sequence numbers |
 | TCP Connection Teardown | FIN, ACK, sequence numbers |
 | TCP Reset | RST, RST/ACK, connection termination |
@@ -26,9 +28,12 @@ common network protocols and TCP behavior.
 
 - Wireshark
 - TCP/IP
+- ARP
 - DNS
 - TCP
 - IPv4/IPv6
+- Ethernet
+- MAC addressing
 - Packet analysis
 - Network troubleshooting
 - Network protocol analysis
