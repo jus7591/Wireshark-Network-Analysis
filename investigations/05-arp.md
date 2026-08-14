@@ -72,5 +72,9 @@ The PC is telling the router:
 
 The router can then associate the PC's IPv4 address with its MAC address.
 
+### Frame 120 Screenshot
+
+![ARP Reply - Frame 120](../screenshots/arp/arp-reply.png)
+
 ```text
 192.168.1.64 → 10:ff:e0:32:74:52
