@@ -9,9 +9,11 @@ common network protocols and TCP behavior.
 - Understand DNS queries and responses
 - Analyze IPv4 and IPv6 traffic
 - Understand ARP address resolution
-- Understand TCP connection establishment
+- Understand ICMP Echo Requests and Echo Replies
+- Analyze TCP connection establishment
 - Analyze TCP connection termination
 - Compare graceful TCP termination with TCP resets
+- Analyze TTL and round-trip time
 - Develop practical packet-analysis and troubleshooting skills
 
 ## Investigations
@@ -23,6 +25,7 @@ common network protocols and TCP behavior.
 | TCP Three-Way Handshake | SYN, SYN/ACK, ACK, sequence numbers |
 | TCP Connection Teardown | FIN, ACK, sequence numbers |
 | TCP Reset | RST, RST/ACK, connection termination |
+| ICMP / Ping Analysis | Echo requests, echo replies, TTL, round-trip time |
 
 ## Skills Demonstrated
 
