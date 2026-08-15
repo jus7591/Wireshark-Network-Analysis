@@ -118,5 +118,7 @@ I also learned that TTL decreases as an IPv4 packet passes through routers. The 
 The biggest thing I learned from this investigation is that ping is testing ICMP communication, not whether an entire service or application is working. A device can respond to ping while a TCP service such as HTTPS is unavailable.
 
 # Screenshots
+Echo Request
 ![Echo Request](../screenshots/icmp/echo-request.png)
+Echo Reply
 ![Echo Reply](../screenshots/icmp/echo-reply.png)
