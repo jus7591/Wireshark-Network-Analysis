@@ -70,36 +70,36 @@ ping 8.8.8.8
 
 # Network+ Concepts Demonstrated
 IPv4
-IPv4 addressing
-Source and destination addresses
-IPv4 header
-Protocol field
-TTL
-Fragmentation fields
+* IPv4 addressing
+* Source and destination addresses
+* IPv4 header
+* Protocol field
+* TTL
+ 
 ICMP
-Echo Request
-Echo Reply
-ICMP Type
-ICMP Code
-ICMP checksum
-ICMP payload
+* Echo Request
+* Echo Reply
+* ICMP Type
+* ICMP Code
+* ICMP checksum
+* ICMP payload
+
 Network Troubleshooting
-ping
-Connectivity testing
-Round-trip time
-Packet-level troubleshooting
-Identifying request/response relationships
-Packet Analysis
-Reading IPv4 headers
-Reading ICMP headers
-Identifying protocol fields
-Following packet relationships
-Comparing request and response packets
-TTL
-TTL decrementing
-Router forwarding behavior
-Preventing routing loops
-Understanding why TTL alone cannot determine exact hop count
+* ping
+* Connectivity testing
+* Round-trip time
+* Packet-level troubleshooting
+* Identifying request/response relationships
+* Packet Analysis
+
+Wireshark
+* Capture filtering
+* Packet inspection
+* IPv4 header analysis
+* ICMP header analysis
+* Matching request and response packets
+* Examining packet fields
+* Using Wireshark to understand what actually happened on the network
 
 # What I Learned
 
@@ -116,3 +116,7 @@ The response time in this capture was 9.368 ms, which represents the approximate
 I also learned that TTL decreases as an IPv4 packet passes through routers. The request started with a TTL of 128, while the reply arrived with a TTL of 117. However, I cannot simply say that the difference of 11 means there were 11 routers because the two packets originated from different devices and may have started with different TTL values.
 
 The biggest thing I learned from this investigation is that ping is testing ICMP communication, not whether an entire service or application is working. A device can respond to ping while a TCP service such as HTTPS is unavailable.
+
+# Screenshots
+![Echo Request](../screenshots/icmp/echo-request.png)
+![Echo Reply](../screenshots/icmp/echo-reply.png)
