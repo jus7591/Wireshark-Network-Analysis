@@ -31,8 +31,8 @@ common network protocols and TCP behavior.
 | TCP Connection Teardown | FIN, ACK, sequence numbers |
 | TCP Reset | RST, RST/ACK, connection termination |
 | ICMP / Ping Analysis | Echo requests, echo replies, TTL, round-trip time |
-| DHCP | DORA Process | Packet Analysis | Configuration Verification |
-| HTTP/HTTPS | Client Hello | Server Hello | Encrypted Application Data |
+| DHCP | DORA Process, Packet Analysis, Configuration Verification |
+| HTTP/HTTPS | Client Hello, Server Hello, Encrypted Application Data |
 
 ## Skills Demonstrated
 
